@@ -373,6 +373,10 @@ PRODUCT_PACKAGES += \
     update_engine_sideload \
     update_verifier
 
+# USB
+PRODUCT_PACKAGES += \
+    android.hardware.usb@1.0-service
+
 # VNDK
 PRODUCT_PACKAGES += \
     vndk_package
