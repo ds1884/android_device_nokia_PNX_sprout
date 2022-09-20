@@ -198,6 +198,10 @@ PRODUCT_PACKAGES += \
     update_engine_sideload \
     update_verifier
 
+# VNDK
+PRODUCT_PACKAGES += \
+    vndk_package
+
 # WiFi
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_qcom_cfg.ini \
